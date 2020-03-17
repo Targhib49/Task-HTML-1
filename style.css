@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 200px;
+    background-color: rgb(13, 28, 80);
+    display: flex;
+}
+
+#photo-container{
+    height: 200px;
+    width: 150px;
+    background-image: url(./images/Targhib_Ibrahim.png);
+    background-size: 150px 200px;
+    background-position: center;
+}
+
+#name{
+    height: 60px;
+    width: 300px;
+    margin-top: 100px;
+    font-size: 40px;
+    text-align: left;
+    padding-left: 10px;
+    color: rgb(165, 158, 158);
+}
+
+#job{
+    height: 40px;
+    font-size: 20px;
+    text-align: left;
+    padding-left: 10px;
+    color: rgb(165, 158, 158);
+}
+
+main{
+    height: 420px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+}
+
+#about-me{
+    background-color: rgb(45, 143, 209);
+    width: 30%;
+    margin: 1.5%;
+}
+
+#title-about-me{
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 40px;
+    text-decoration: underline;
+}
+
+#skill{
+    width: 30%;
+    background-color: rgb(45, 143, 209);
+    margin: 1.5%;
+}
+
+#title-skill{
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 40px;
+    text-decoration: underline;
+}
+
+#experience{
+    width: 30%;
+    margin: 1.5%;
+    background-color: rgb(45, 143, 209);
+}
+
+#title-experience{
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 40px;
+    text-decoration: underline;
+}
+
+.details{
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+footer{
+    height: 50px;
+    background-color: rgb(39, 36, 36);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
